@@ -58,13 +58,14 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn', // Checks effect dependencies
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
-    'prettier/prettier': 'warn',
+    'prettier/prettier': 'off',
     'no-empty-pattern': 'off', // Allow empty destructuring patterns
     'no-use-before-define': 'error', // Disable "use before define" for all variables and functions
     'no-shadow': 'off', // Disable shadowed variable rule
     '@typescript-eslint/no-shadow': 'off', // Disable shadowed variable rule for TypeScript
     '@typescript-eslint/no-use-before-define': 'error', // Disable "use before define" for TypeScript
     'react/jsx-no-constructed-context-values': 'off', // Allow constructed context values in React
+    '@typescript-eslint/no-explicit-any': 'off',
     'import/extensions': 'off',
     'import/order': 'error', // Disable import order rule to avoid conflict with simple-import-sort
     '@typescript-eslint/no-unused-vars': 'error', // Disable unused variables rule for TypeScript
